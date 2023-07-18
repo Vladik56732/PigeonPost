@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+        'Lucida Sans', Arial, sans-serif;
+}
+body {
+    height: 100vh;
+}
+header {
+    width: 100%;
+    height: 10vh;
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+    background-color: black;
+}
+
+.whatsapp20 {
+    width: 100%;
+    height: 90vh;
+    border: 1px solid black;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.dialog::-webkit-scrollbar {
+    width: 12px;
+}
+
+.dialog::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+}
+
+.dialog::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
+.dialog {
+    width: 600px;
+    height: 600px;
+    border: 1px solid black;
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    align-content: flex-end;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-image: url('https://www.funnyart.club/uploads/posts/2021-12/thumbs/1640179673_1-www-funnyart-club-p-foni-dlya-chatov-1.jpg');
+}
+.myMessage {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+.yourMessage {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+}
+
+.yourMessage p {
+    max-width: 250px;
+    padding: 8px 15px;
+    background-color: lightslategray;
+    color: white;
+    border-radius: 15px;
+}
+.yourMessage .time {
+    color: rgb(222, 224, 219);
+    display: block;
+    font-size: small;
+    padding: 5px 0 0 5px;
+}
+.myMessage p {
+    max-width: 250px;
+    padding: 8px 15px;
+    background-color: rgb(66, 66, 202);
+    color: white;
+    border-radius: 15px;
+    word-break: break-word;
+}
+.myMessage .time {
+    color: rgb(222, 224, 219);
+    display: block;
+    font-size: small;
+    text-align: end;
+    padding: 5px 5px 0 0;
+}
+
+.vvod {
+    width: 600px;
+    display: flex;
+}
+.vvod button {
+    border-bottom-right-radius: 15px;
+    border-top: 0px;
+    border-left: 0px;
+}
+.vvod input {
+    width: 100%;
+    border-bottom-left-radius: 15px;
+    border-top: 0px;
+}
