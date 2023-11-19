@@ -30,7 +30,7 @@ function createDialog(mass) {
         }</p><span class="time">${timeFormat(
             element.timestamp
         )}</span></div>`
-        dialog.append(myMessage)
+        dialog.append(message)
     }
 }
 
