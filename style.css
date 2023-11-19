@@ -83,7 +83,7 @@ header {
     background-color: rgb(66, 66, 202);
 }
 
-.myMessage .time {
+.myMessage .time, .yourMessage .time {
     color: rgb(222, 224, 219);
     display: block;
     font-size: small;
