@@ -50,7 +50,7 @@ header {
     align-content: flex-end;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    background-image: url('https://www.funnyart.club/uploads/posts/2021-12/thumbs/1640179673_1-www-funnyart-club-p-foni-dlya-chatov-1.jpg');
+    background-image: url('chatBackground.jpg');
 }
 .myMessage {
     width: 100%;
